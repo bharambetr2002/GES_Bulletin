@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "838907975334",
+    "firebase_url": "https://ges-bulletin-default-rtdb.firebaseio.com",
     "project_id": "ges-bulletin",
     "storage_bucket": "ges-bulletin.appspot.com"
   },

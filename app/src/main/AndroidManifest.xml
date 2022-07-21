@@ -11,7 +11,7 @@
         android:label="GES Bulletin"
         android:roundIcon="@drawable/collegelogo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MaterialComponents.NoActionBar"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
         tools:targetApi="31">
         <activity
             android:name=".DashBoardTeacherActivity"
