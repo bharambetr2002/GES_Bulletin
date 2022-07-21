@@ -1,5 +1,6 @@
 package com.example.gesbulletin
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.gesbulletin.databinding.ActivityMainBinding
@@ -16,12 +17,12 @@ class MainActivity : AppCompatActivity() {
 
         //handle click login
         binding.loginBtn.setOnClickListener {
-
+            startActivity(Intent(this, LoginActivity::class.java))
         }
 
         //handle click register
         binding.registerBtn.setOnClickListener{
-
+            startActivity(Intent(this, RegisterActivity::class.java))
         }
     }
 }
