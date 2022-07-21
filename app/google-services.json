@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "838907975334",
+    "project_id": "ges-bulletin",
+    "storage_bucket": "ges-bulletin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838907975334:android:16d236e1332e8bf4bd4667",
+        "android_client_info": {
+          "package_name": "com.example.gesbulletin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "838907975334-j1rfhlrirn27pcoismiiqe3gdkuv2grl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjk-7hxsSAwRLIpUzTklIvZZRcgs8_cFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "838907975334-j1rfhlrirn27pcoismiiqe3gdkuv2grl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
