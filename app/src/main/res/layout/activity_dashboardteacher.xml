@@ -33,6 +33,8 @@
             android:text="abc@example.com"
             android:textColor="@color/bisque"/>
 
+
+
     </RelativeLayout>
 
     <ImageButton
