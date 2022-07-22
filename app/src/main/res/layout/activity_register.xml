@@ -149,6 +149,66 @@
 
             </com.google.android.material.textfield.TextInputLayout>
 
+            <!--password-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/passwordTil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/birthdateTil"
+                android:layout_marginTop="5dp"
+                app:passwordToggleEnabled="true"
+                app:hintEnabled="false">
+
+                <EditText
+                    android:id="@+id/passwordEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_edittext_01"
+                    android:drawableStart="@drawable/ic_lock_grey"
+                    android:drawablePadding="10dp"
+                    android:hint="Passowrd"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/dim_gray"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--confirm password-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/cpasswordTil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/passwordTil"
+                android:layout_marginTop="5dp"
+                app:passwordToggleEnabled="true"
+                app:hintEnabled="false">
+
+                <EditText
+                    android:id="@+id/cpasswordEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_edittext_01"
+                    android:drawableStart="@drawable/ic_lock_grey"
+                    android:drawablePadding="10dp"
+                    android:hint="Confirm Passoword"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/dim_gray"/>
+
+                <!--Register Button-->
+                <Button
+                    android:id="@+id/registerBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shape_button_01"
+                    android:text="Register"
+                    android:textColor="@color/bisque"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
         </RelativeLayout>
 
     </ScrollView>
