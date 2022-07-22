@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/GES Bulletin/app/src/main/res/drawable/ic_back_white.xml" value="0.102" />
+        <entry key="..\:/GES Bulletin/app/src/main/res/drawable/ic_logout_white.xml" value="0.1535" />
+        <entry key="..\:/GES Bulletin/app/src/main/res/drawable/ic_phone_black.xml" value="0.1535" />
         <entry key="..\:/GES Bulletin/app/src/main/res/drawable/shape_button_01.xml" value="0.11" />
         <entry key="..\:/GES Bulletin/app/src/main/res/drawable/shape_button_02.xml" value="0.11" />
         <entry key="..\:/GES Bulletin/app/src/main/res/drawable/shape_edittext_01.xml" value="0.11" />
@@ -14,7 +16,7 @@
         <entry key="..\:/GES Bulletin/app/src/main/res/layout/activity_dashboardteacher.xml" value="0.25" />
         <entry key="..\:/GES Bulletin/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/GES Bulletin/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/GES Bulletin/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/GES Bulletin/app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="..\:/GES Bulletin/app/src/main/res/layout/activity_splash.xml" value="0.1" />
       </map>
     </option>

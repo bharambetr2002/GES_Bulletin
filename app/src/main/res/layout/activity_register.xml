@@ -125,12 +125,37 @@
 
             </com.google.android.material.textfield.TextInputLayout>
 
+            <!--phone no-->
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/phonenoTil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/prnnoTil"
+                android:layout_marginTop="5dp"
+                app:hintEnabled="false">
+
+                <EditText
+                    android:id="@+id/phonenoEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_edittext_01"
+                    android:drawableStart="@drawable/ic_phone_grey"
+                    android:drawablePadding="10dp"
+                    android:hint="Phone No."
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/dim_gray"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
             <!--Birthdate-->
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/birthdateTil"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/prnnoTil"
+                android:layout_below="@+id/phonenoTil"
                 android:layout_marginTop="10dp"
                 app:hintEnabled="false">
 
