@@ -6,14 +6,19 @@ import android.os.Bundle
 import android.webkit.WebView
 import android.webkit.WebViewClient
 
-class WebviewActivity : AppCompatActivity() {
+class WebView : AppCompatActivity() {
 
     private lateinit var wb_webView : WebView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_webview)
+        setContentView(R.layout.activity_web_view)
+
+        wb_webView = findViewById(R.id.wb_webView)
+
+        webViewSetup()
     }
+
     @SuppressLint("SetJavaScriptEnabled")
     private fun webViewSetup(){
 
