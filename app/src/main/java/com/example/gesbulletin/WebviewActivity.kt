@@ -13,12 +13,14 @@ class WebviewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_webview)
+        wb_webView = findViewById(R.id.wb_webView)
+        webViewSetup()
     }
+
     @SuppressLint("SetJavaScriptEnabled")
     private fun webViewSetup(){
 
         wb_webView.webViewClient = WebViewClient()
-
         wb_webView.apply {
             loadUrl("https://ges-coengg.org/")
             settings.javaScriptEnabled = true
