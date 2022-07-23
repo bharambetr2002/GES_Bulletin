@@ -29,6 +29,10 @@ class DashboardteacherActivity : AppCompatActivity() {
         binding.Website.setOnClickListener {
             startActivity(Intent(this, WebviewActivity::class.java))
         }
+
+        binding.TimeTable.setOnClickListener {
+            startActivity(Intent(this, TeacherTimetableActivity::class.java))
+        }
     }
 
     private fun checkUser() {

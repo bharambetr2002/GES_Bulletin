@@ -15,6 +15,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
         <activity
+            android:name=".PdfAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherTimetableActivity"
+            android:exported="false" />
+        <activity
             android:name=".WebviewActivity"
             android:exported="false" />
         <activity
