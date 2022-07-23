@@ -24,7 +24,6 @@ class WebviewActivity : AppCompatActivity() {
         wb_webView.apply {
             loadUrl("https://ges-coengg.org/")
             settings.javaScriptEnabled = true
-
         }
 
     }
