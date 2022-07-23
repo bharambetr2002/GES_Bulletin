@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.gesbulletin">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,7 +14,9 @@
         android:roundIcon="@drawable/collegelogo"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
-        tools:targetApi="31">
+        <activity
+            android:name=".WebviewActivity"
+            android:exported="false" />
         <activity
             android:name=".DashboardteacherActivity"
             android:exported="false" />

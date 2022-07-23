@@ -25,9 +25,6 @@ class DashboardstudentActivity : AppCompatActivity() {
             finish()
         }
 
-        binding.Website.setOnClickListener {
-            startActivity(Intent(this, WebviewActivity::class.java))
-        }
     }
 
     private fun checkUser() {
