@@ -2,15 +2,9 @@ package com.example.gesbulletin
 
 import android.widget.Filter
 
-
-class FilterCategory: Filter {
-
-    //arrayList in which we want to search
+class FilterCategory: Filter{
 
     private var filterList: ArrayList<ModelCategory>
-
-    //adapter in which filter need to be implemented
-
     private var adapterCategory: AdapterCategory
 
     constructor(filterList: ArrayList<ModelCategory>, adapterCategory: AdapterCategory) : super() {
@@ -19,14 +13,14 @@ class FilterCategory: Filter {
     }
 
     override fun performFiltering(constraint: CharSequence?): FilterResults {
-        var constraint =  constraint
+        var constraint = constraint
         val results = FilterResults()
 
         if (constraint != null && constraint.isNotEmpty()){
             constraint = constraint.toString().uppercase()
             val filteredModels:ArrayList<ModelCategory> = ArrayList()
-            for(i in 0 until filterList.size){
-                if(filterList[i].category.uppercase().contains(constraint)){
+            for (i in 0 until filterList.size){
+                if (filterList[i].category.uppercase().contains(constraint)){
                     filteredModels.add(filterList[i])
                 }
             }
@@ -37,16 +31,12 @@ class FilterCategory: Filter {
             results.count = filterList.size
             results.values = filterList
         }
-
         return results
     }
 
-    override fun publishResults(constraint: CharSequence?, results: FilterResults ) {
-
+    override fun publishResults(constraint: CharSequence?, results: FilterResults) {
         adapterCategory.categoryArrayList = results.values as ArrayList<ModelCategory>
-
         adapterCategory.notifyDataSetChanged()
     }
-
 
 }
