@@ -12,7 +12,7 @@
         android:id="@+id/toolbarRL"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:background="@drawable/shape_toolbar_01">
+        android:background="@drawable/shape_toolbar_1">
 
         <ImageView
             android:id="@+id/iconIv"
@@ -72,7 +72,7 @@
                     android:id="@+id/emailEt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/shape_edittext_01"
+                    android:background="@drawable/shape_edittext_1"
                     android:drawableStart="@drawable/ic_email_grey"
                     android:padding="10dp"
                     android:hint="Email"
@@ -98,7 +98,7 @@
                     android:id="@+id/passwordEt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/shape_edittext_01"
+                    android:background="@drawable/shape_edittext_1"
                     android:drawableStart="@drawable/ic_lock_grey"
                     android:padding="10dp"
                     android:hint="Password"
@@ -127,7 +127,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/forgotTv"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/shape_button_01"
+                android:background="@drawable/shape_button_1"
                 android:text="Login"
                 android:textColor="@color/bisque" />
 

@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/registerBtn"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/shape_button_01"
+        android:background="@drawable/shape_button_1"
         android:text="Login"
         android:textColor="@color/bisque" />
 
@@ -41,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/shape_button_02"
+        android:background="@drawable/shape_button_2"
         android:text="Register"
         android:textColor="@color/dark_blue"/>
 

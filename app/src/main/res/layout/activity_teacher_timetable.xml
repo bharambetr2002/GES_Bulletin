@@ -11,7 +11,7 @@
         android:id="@+id/toolbarRL"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:background="@drawable/shape_toolbar_02">
+        android:background="@drawable/shape_toolbar_2">
 
         <TextView
             android:id="@+id/titleTv"
@@ -95,7 +95,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/shape_button_01"
+            android:background="@drawable/shape_button_1"
             android:minHeight="50dp"
             android:text="+ Add Category"
             android:textAllCaps="false"
