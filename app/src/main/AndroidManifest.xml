@@ -18,6 +18,9 @@
             android:name=".PdfAddActivity"
             android:exported="false" />
         <activity
+            android:name=".PdfActivity"
+            android:exported="false" />
+        <activity
             android:name=".CategoryAddActivity"
             android:exported="false" />
         <activity

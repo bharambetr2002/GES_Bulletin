@@ -57,7 +57,6 @@ class TeacherTimetableActivity : AppCompatActivity() {
             checkUser()
         }
 
-
         binding.addCategoryBtn.setOnClickListener {
             startActivity(Intent(this, CategoryAddActivity::class.java))
         }
@@ -65,7 +64,6 @@ class TeacherTimetableActivity : AppCompatActivity() {
         binding.addPdfBtn.setOnClickListener {
             startActivity(Intent(this, PdfAddActivity::class.java))
         }
-
     }
 
     private fun loadCategories() {
