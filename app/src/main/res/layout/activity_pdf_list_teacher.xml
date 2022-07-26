@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_4"
+    tools:context=".PdfListTeacherActivity">
+
+    <RelativeLayout
+        android:id="@+id/toolbarRL"
+        android:background="@drawable/shape_toolbar_2"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:src="@drawable/ic_back_white"/>
+
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timetable"
+            android:textColor="@color/bisque"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/subTitleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textColor="@color/bisque"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/titleTv"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
