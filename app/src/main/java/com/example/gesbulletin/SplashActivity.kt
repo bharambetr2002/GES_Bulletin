@@ -22,7 +22,7 @@ class SplashActivity : AppCompatActivity() {
 
         Handler().postDelayed(Runnable {
             checkUser()
-        }, 2000) //2000 means 2 seconds
+        }, 8000) //1000 means 1 seconds
     }
 
     private fun checkUser() {
