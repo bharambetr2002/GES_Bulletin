@@ -43,6 +43,27 @@
 
     </RelativeLayout>
 
+    <EditText
+        android:id="@+id/searchEnter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbarRL"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/white"
+        android:drawableStart="@drawable/ic_search_grey"
+        android:drawablePadding="10dp"
+        android:hint="Search"
+        android:textColorHint="@color/dim_gray"
+        android:textColor="@color/black"
+        android:padding="10dp"/>
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/timetableRv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchEnter"
+        android:layout_margin="10dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
 
 </RelativeLayout>
